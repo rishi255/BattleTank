@@ -72,3 +72,7 @@
 
 # Cache files for the editor to use
 */DerivedDataCache/*
+
+# Ignore starter content
+*/Content/StarterContent/HDRI
+*/Content/StarterContent/Textures
