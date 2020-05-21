@@ -20,7 +20,7 @@ public:
 	ATank* GetAIControlledTank() const;
 	ATank* GetPlayerTank() const;
 	void BeginPlay() override;
-
+	virtual void Tick (float DeltaTime) override;
 private:
 	ATank* AIControlledTank = nullptr;
 	ATank* PlayerTank = nullptr;
